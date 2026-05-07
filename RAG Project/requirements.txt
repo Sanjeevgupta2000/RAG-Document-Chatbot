@@ -1,40 +1,52 @@
-# Core LLM + LangChain
 langchain
 langchain-core
 langchain-community
 
-# Mistral Integration
+# LLM Providers
+
+langchain-openai
 langchain-mistralai
+openai
 mistralai
 
-# Vector Database (Chroma)
+# Vector Database
+
 chromadb
 
-# Embeddings (choose one)
-sentence-transformers
-huggingface-hub
+# Embedding Models
 
-# Document Loaders
+sentence-transformers
+
+# Document Loaders dependencies
+
 pypdf
-python-docx
 unstructured
+beautifulsoup4
+lxml
 
 # Text Processing
+
 tiktoken
 
 # Environment Variables
+
 python-dotenv
 
-# API + Backend (optional but recommended)
-fastapi
-uvicorn
+# Data Handling
 
-# UI (choose one)
-streamlit
-
-# Data handling
 pandas
 numpy
 
-# Optional utilities
-scikit-learn
+# API / App Layer (optional but common in RAG apps)
+
+fastapi
+uvicorn
+
+# UI (optional)
+
+streamlit
+
+# Utilities
+
+tqdm
+requests
