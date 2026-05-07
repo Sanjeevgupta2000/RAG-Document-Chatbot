@@ -1,0 +1,40 @@
+# Core LLM + LangChain
+langchain
+langchain-core
+langchain-community
+
+# Mistral Integration
+langchain-mistralai
+mistralai
+
+# Vector Database (Chroma)
+chromadb
+
+# Embeddings (choose one)
+sentence-transformers
+huggingface-hub
+
+# Document Loaders
+pypdf
+python-docx
+unstructured
+
+# Text Processing
+tiktoken
+
+# Environment Variables
+python-dotenv
+
+# API + Backend (optional but recommended)
+fastapi
+uvicorn
+
+# UI (choose one)
+streamlit
+
+# Data handling
+pandas
+numpy
+
+# Optional utilities
+scikit-learn
